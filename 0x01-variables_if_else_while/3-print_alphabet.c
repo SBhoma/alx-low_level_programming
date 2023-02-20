@@ -8,7 +8,7 @@ putchar(ch);
 }
 for(ch = 'A'; ch <= 'Z'; ch++)
 {
-putchar(ch);"\n";
+putchar(ch);
 }
 return 0;
 }
