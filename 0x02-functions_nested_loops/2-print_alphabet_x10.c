@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - 10xAlphabet
+ * print_alphabet_x10 - 10xAlphabet
  * always: return 0
  */
 void  print_alphabet_x10(void)
@@ -10,7 +10,7 @@ void  print_alphabet_x10(void)
 	while (a < 10)
 	{
 	a++;
-	for (b = 'a'; b <='z';  b++)
+	for (b = 'a' ; b <= 'z' ; b++)
 	{
 		_putchar(b);
 	}
