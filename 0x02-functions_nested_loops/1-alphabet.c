@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
+ * main - print alphabet
  * Return: Always 0.
  */
 int main(void)
@@ -10,9 +8,8 @@ int main(void)
 	char c;
 	for(c = 'a'; c <= 'z'; c++)
 	{
-    		print_alphabet(c);
 		_putchar(c);
 	}
-		putchar('\n');
+		_putchar('\n');
 	return (0);
 }
